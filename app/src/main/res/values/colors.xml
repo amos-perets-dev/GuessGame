@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">@color/gray</color>
+    <color name="purple_500">@color/gray</color>
+    <color name="purple_700">@color/gray</color>
+    <color name="black">#FF000000</color>
+    <color name="teal_200">@color/black</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="gray">#BCB4B4</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#333</color>
+    <color name="registration_screen_submit_button_disable_color">@color/gray</color>
+    <color name="registration_screen_submit_button_enable_color">@color/black</color>
+
+</resources>

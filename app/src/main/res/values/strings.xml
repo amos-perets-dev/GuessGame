@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GuessGame</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="registration_fragment_label">Registration Fragment</string>
+    <string name="game_fragment_label">Game Fragment</string>
+    <string name="history_fragment_label">History Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    //Registration screen
+    <string name="registration_screen_submit_button_text">SUBMIT</string>
+    <string name="registration_screen_name_field_title_text">Name</string>
+    <string name="registration_screen_email_field_title_text">Email</string>
+
+    //Game screen
+    <string name="game_screen_history_title_text">History</string>
+    <string name="game_screen_logout_title_text">Logout</string>
+    <string name="game_screen_guess_main_title_text">Guess</string>
+    <string name="game_screen_guess_item_template_text">%1$s. %2$s - %3$s</string>
+    <string name="game_screen_error_guess_template_text">%1$s not in the numbers range</string>
+    <string name="game_screen_success_guess_default_text">SUCCESS</string>
+    <string name="game_screen_higher_guess_default_text">higher</string>
+    <string name="game_screen_lower_guess_default_text">lower</string>
+    <string name="game_screen_correct_guess_default_text">correct</string>
+
+    //History screen
+    <string name="history_screen_back_text">Back</string>
+    <string name="history_screen_main_title_text">Games History</string>
+
+</resources>
