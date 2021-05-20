@@ -14,6 +14,4 @@ open class UserProfile(
     var isLoggedIn: Boolean = false,
     var guessesList: RealmList<Int> = RealmList<Int>(),
     var targetNumber: Int = -1,
-) : RealmObject() {
-
-}
+) : RealmObject()

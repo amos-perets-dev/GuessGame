@@ -10,5 +10,4 @@ open class TopPlayer (
     var email: String = "",
     var name: String = "",
     var gameResult: Int = 0,
-    ) : RealmObject(){
-}
+    ) : RealmObject()
