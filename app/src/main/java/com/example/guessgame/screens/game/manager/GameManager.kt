@@ -79,8 +79,12 @@ class GameManager(
     }
 
     override fun addPlayer(guessResult: GuessState): Completable? {
-        if (guessResult !is GuessState.ResultSuccess) return Completable.complete()
-        return topPlayerManager.addTopPlayer()
+        return if (guessResult.isErrorState) {
+            Completable.complete()
+        } else{
+            topPlayerManager.addTopPlayer()
+        }
+
     }
 
     override fun getLastGuessState(): GuessState? {
@@ -107,6 +111,7 @@ class GameManager(
                         .map {
                             guessState = GuessState.ResultSuccess
                             guessState?.title = it.message
+                            guessState?.isErrorState = false
                             guessState
                         }
                         .onErrorReturn {
